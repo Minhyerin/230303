@@ -1,3 +1,0 @@
-input:not([type=password]) {
-  background-color: red;
-}/*text만 불러오게됨*/
