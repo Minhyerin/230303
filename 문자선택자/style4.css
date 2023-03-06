@@ -1,7 +1,0 @@
-p::first-letter { 
-  color: red; font-size: 3em;
-}/*em은배수 p태그의 크기는16px*/
-
-p::first-line { 
-  background-color: blue;
-}
