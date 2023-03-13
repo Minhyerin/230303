@@ -1,0 +1,96 @@
+/* Reset */
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: lightcyan;
+}
+
+/* Login Box */
+#box {
+  width: 350px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgb(253, 254, 255);
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+
+  position: relative;
+}
+
+/* menu icon */
+.menu {
+  overflow: hidden;
+  width: 100%;
+}
+.menu a {
+  font-size: 22px;
+  color: #000;
+}
+.menu a:nth-child(1){
+  float: left;
+}
+.menu a:nth-child(2){
+  float: right;
+}
+
+#profile {
+  width: 100%;
+  text-align: center;
+}
+
+/* Img */
+img {
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 10px 10px 10px rgba(167, 228, 243, 0.7);
+
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 23px;
+
+  margin-bottom: 5px;
+}
+h2 {
+  font-weight: normal;
+  font-size: 13px;
+  color: grey;
+  margin-bottom: 30px;
+}
+
+.view {
+  display: block;
+  width: 60%; height: 30px;
+  line-height: 30px;
+  margin-left: 60px;
+  border-radius: 15px;
+  background-color: aqua;
+  box-shadow: 10px 10px 10px rgba(148, 251, 255, 0.4);
+}
+.view a {
+  color: #fff;
+  font-weight: bold;
+}
+
+#site {
+  margin: 30px 0;
+}
+#site li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+#site li i {
+  width: 25%;
+  margin-left: 10px;
+}

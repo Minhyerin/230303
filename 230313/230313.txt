@@ -1,0 +1,10 @@
+
+와이어프레임 개념, 피그마 사용 방법,
+
+컴퍼런트화 = 스타일 정의
+
+크롬 확장프로그램 설치 모바일 시뮬레이터
+
+노트패드++ 사전에 사용할 코드 정의. https://notepad-plus-plus.org/
+
+https://color.adobe.com/ko/create/color-wheel
