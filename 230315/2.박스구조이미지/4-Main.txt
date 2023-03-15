@@ -1,0 +1,60 @@
+.container .front
+	.front-inner
+		.main-header
+			[same html structure]
+		
+		.font-content
+			.category-navigation
+			.front-slider
+			.goods-suggestion.today
+				.goods-suggestion-header
+					h2, p
+				.goods-suggestion-items
+					.goods-suggestion-item
+						.thum
+							img
+						.desc
+							.goods-badge
+								.bagde.new
+								.badge.hot
+							.goods-title
+								h3
+								div
+									span, b, s
+				button.goods-suggestion-more
+			.banner
+			.goods-suggestion.new-arrival
+				[same html structure]
+			.banner
+			.food-type
+				.food-type-tab-inner
+					input[type=radio] * 6
+					.food-type-tap-btn * 6
+					.food-type-taps
+						.food-type-tap
+							.tap-item
+								img
+							.tap-desc
+								.badge-wish
+									.badge.new 
+									.badge.hot
+									.badge.wish
+								.goods-title
+									h3
+									div
+										span, b, s
+				a.btn-goods-suggestion-more
+			.food-footer
+				div_top
+					h3
+					.company-link > a * 4
+				.company-info
+					.company-info-title
+						h3, button.btn-view-more
+					.company-info-more 
+						span * 5
+		.gnb
+			[same html structure]
+			
+			
+			
