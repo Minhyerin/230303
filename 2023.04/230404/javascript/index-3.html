@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script defer src="/script-3.js"></script>
+
+  <title>Document</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Gamja Flower', cursive;
+    }
+    #wrap {
+      width: 600px;
+      margin: 20px auto;
+    }
+    h2 {
+      text-align: center;
+      margin: 10px;
+    }
+    form {
+      background-color: #007acc;
+      padding: 30px 40px;
+      color: #fff;
+      text-align: center;
+    }
+    input {
+      border: none;
+      outline: none;
+      width: 440px;
+      padding: 10px;
+      float: left;
+      font-size: 16px;
+    }
+    .addBtn {
+      padding: 10px;
+      width: 50px;
+      font-size: 16px;
+      color: #555;
+      text-align: center;
+      cursor: pointer;
+      border: none;
+      background-color: #fff;
+      box-shadow: 1px 2px 4px #167dae;
+    }
+    ul {
+      list-style: none;
+    }
+    ul li {
+      position: relative;
+      padding: 12px 8px 12px 40px;
+      background-color: #eee;
+    }
+    ul li:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+    ul li:hover {
+      background-color: #ddd;
+    }
+    .close {
+      position: absolute;
+      right: 0;
+      top: 0;
+      padding: 12px 16px;
+      border: none;
+    }
+    .close:hover {
+      background-color: #007acc;
+      color: #fff;
+    }
+  </style>
+</head>
+<body>
+  <div id="wrap">
+    <h2>여행 준비물 점검 목록</h2>
+    <form>
+      <input id="item" type="text" autofocus="true">
+      <button id="add" class="addBtn">추가</button>
+    </form>
+    <div id="itemList">
+
+    </div>
+  </div>
+</body>
+</html>
