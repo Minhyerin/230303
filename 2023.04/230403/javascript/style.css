@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Signika Negative', sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 35px;
+  color: cornflowerblue;
+  margin-bottom: 20px;
+}
+h1::after {
+  content: '';
+  transition: 0.3s;
+  animation: imoji 0.8s linear infinite;
+}
+
+@keyframes imoji {
+  0% {
+    content: '🙂';
+  }
+  100% {
+    content: '😉';
+  }
+}
+.container {
+  width: 100%;
+  margin: 60px auto;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.clock {
+  background-color: cornflowerblue;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 35px;
+  gap: 5px;
+  margin-bottom: 30px;
+}
+h2 {
+  font-size: 18px;
+  width: 30%;
+  line-height: 48px;
+}
+.time {
+  width: 30px;
+  text-align: center;
+  margin-right: 6px;
+}
+form {
+  width: 100%;
+  display: flex;
+  gap: 5px;
+}
+
+input {
+  width: 100%;
+  border-radius: 13px;
+  padding: 10px 15px;
+  outline: none;
+  border: 1px solid rgb(60, 60, 134);
+  font-family: 'Gamja Flower', cursive;
+  font-size: 16px;
+}
+
+input:focus {
+  border: 1px solid rgb(33, 54, 95);
+  box-shadow: 3px 3px 3px rgba(33, 54, 95, 0.5);
+}
+button {
+  width: 20%;
+  border: none;
+  border-radius: 10px;
+  background-color: cornflowerblue;
+  color: #fff;
+  font-family: 'Gamja Flower', cursive;
+}
+button:hover {
+  background-color: rgb(70, 105, 168);
+}
+
+ul {
+  list-style: none;
+  width: 100%;
+  margin: 20px auto;
+}
+li {
+  border-bottom: 1px solid cornflowerblue;
+  padding-bottom: 7px;
+  margin-bottom: 7px;
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gamja Flower', cursive;
+  font-size: 20px;
+  color: rgb(73, 98, 143);
+}
+
+li button {
+  background-color: #fff;
+  color: cornflowerblue;
+  width: 15%;
+  line-height: 20px;
+  font-size: 25px;
+}
+li button:hover {
+  background-color: transparent;
+  color: rgb(43, 73, 129);
+}
